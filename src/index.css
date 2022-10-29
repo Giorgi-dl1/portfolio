@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+video {
+  clip-path: url(#text-overlay);
+}
