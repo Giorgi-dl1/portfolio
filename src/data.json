@@ -52,11 +52,11 @@
   ],
   "node": [
     {
-      "name": "Rest Countries API",
-      "languages": "React, CSS",
-      "live": "https://silver-lily-b2d3cb.netlify.app/",
-      "github": "https://github.com/Giorgi-dl1/rest-countries",
-      "image": "/images/restCountries.png"
+      "name": "MERN Ecommerce website",
+      "languages": "Node,React, CSS",
+      "live": "https://mern-ecommerce-g-express.herokuapp.com/",
+      "github": "https://github.com/Giorgi-dl1/G-express",
+      "image": "/images/mern.png"
     }
   ],
   "php": [

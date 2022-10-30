@@ -44,7 +44,7 @@ export default function ProjectsScreen({ setLocation }) {
           <div key={header}>
             <div
               onClick={() => clickhandler(header)}
-              className="bg-[#5ece7b] flex justify-between align-center text-white text-2xl w-[27rem] p-[.75rem] cursor-pointer hover:opacity-80 rounded"
+              className="bg-[#5ece7b] flex mx-auto lg:mx-0 justify-between align-center text-white text-2xl w-[27rem] p-[.75rem] cursor-pointer hover:opacity-80 rounded"
             >
               {header}
               <Arrow
