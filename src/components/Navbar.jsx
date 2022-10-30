@@ -1,0 +1,51 @@
+import { Link } from "react-router-dom";
+import { GiPineapple } from "react-icons/gi";
+
+export default function Navbar({ location }) {
+  return (
+    <nav className="z-20 relative flex justify-between px-[2rem] py-5 lg:px-[5rem] md:px-[4rem] align-center bg-white text-black">
+      <ul className="text-xl flex gap-7 font-[roboto]">
+        <li className="grid content-center ">
+          <Link
+            to="/"
+            className="hover:opacity-60 py-[2rem] ease duration-[0.5s] border-solid border-b-[2px] border-transparent"
+            style={
+              location === "/"
+                ? { borderColor: "#5ece7b", color: "#5ece7b" }
+                : {}
+            }
+          >
+            HOME
+          </Link>
+        </li>
+        <li className="grid content-center">
+          <Link
+            className="hover:opacity-60 py-[2rem] ease duration-[0.5s] border-solid border-b-[2px] border-transparent"
+            style={
+              location === "/projects"
+                ? { borderColor: "#5ece7b", color: "#5ece7b" }
+                : {}
+            }
+            to="/projects"
+          >
+            PROJECTS
+          </Link>
+        </li>
+        <li className="grid content-center">
+          <Link
+            className="hover:opacity-60 py-[2rem] ease duration-[0.5s] border-solid border-b-[2px] border-transparent"
+            style={
+              location === "/contact"
+                ? { borderColor: "#5ece7b", color: "#5ece7b" }
+                : {}
+            }
+            to="/contact"
+          >
+            CONTACTS
+          </Link>
+        </li>
+      </ul>
+      <GiPineapple className="fill-[#238b3f] w-20 h-20" />
+    </nav>
+  );
+}

@@ -1,0 +1,76 @@
+{
+  "React": [
+    {
+      "name": "Fully Responsive Ecommerce Website",
+      "languages": "React, CSS, Redux",
+      "live": "https://glittery-cassata-7e269d.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/audiophile-ecommerce-website",
+      "image": "/images/audiophile.png"
+    },
+    {
+      "name": "Rest Countries API",
+      "languages": "React, CSS",
+      "live": "https://silver-lily-b2d3cb.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/rest-countries",
+      "image": "/images/restCountries.png"
+    },
+    {
+      "name": "Todo app",
+      "languages": "React, CSS",
+      "live": "https://classy-selkie-68431c.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/todo-app",
+      "image": "/images/todo.png"
+    },
+    {
+      "name": "Calculator",
+      "languages": "React, CSS",
+      "live": "https://tangerine-treacle-724421.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/React-calculator",
+      "image": "/images/calculator.png"
+    },
+    {
+      "name": "Job-listing",
+      "languages": "JS, HTML, CSS",
+      "live": "https://competent-golick-df3e51.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/job-listing",
+      "image": "/images/jobListing.png"
+    },
+    {
+      "name": "R P S",
+      "languages": "JS, HTML, CSS",
+      "live": "https://amazing-euclid-b036e1.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/rock-paper-scissors",
+      "image": "/images/RPS.png"
+    },
+    {
+      "name": "Password generator",
+      "languages": "JS, HTML, CSS",
+      "live": "https://fervent-noether-9ebae0.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/password-generator",
+      "image": "/images/passwordG.png"
+    }
+  ],
+  "node": [
+    {
+      "name": "Rest Countries API",
+      "languages": "React, CSS",
+      "live": "https://silver-lily-b2d3cb.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/rest-countries",
+      "image": "/images/restCountries.png"
+    }
+  ],
+  "php": [
+    {
+      "name": "Github User Search",
+      "languages": "php, tailwindcss",
+      "github": "https://github.com/Giorgi-dl1/bitoid-challenge-3",
+      "image": "/images/php.jpg"
+    },
+    {
+      "name": "Image Upload",
+      "languages": "php",
+      "github": "https://github.com/Giorgi-dl1/php-bootcamp-week-1/tree/master/giorgi_durglishvili",
+      "image": "/images/php.jpg"
+    }
+  ]
+}

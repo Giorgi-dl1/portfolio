@@ -1,6 +1,12 @@
 import { motion as m } from "framer-motion";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
-export default function Contact() {
+export default function Contact({ setLocation }) {
+  const location = useLocation();
+  useEffect(() => {
+    setLocation(location.pathname);
+  }, [location, setLocation]);
   return (
     <m.div
       initial={{ y: "100%" }}
