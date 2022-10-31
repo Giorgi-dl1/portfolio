@@ -31,13 +31,6 @@
       "image": "/images/audiophile.png"
     },
     {
-      "name": "Rest Countries API",
-      "languages": "React, CSS",
-      "live": "https://silver-lily-b2d3cb.netlify.app/",
-      "github": "https://github.com/Giorgi-dl1/rest-countries",
-      "image": "/images/restCountries.png"
-    },
-    {
       "name": "Github User Search App",
       "languages": "React, CSS",
       "live": "https://courageous-truffle-959289.netlify.app/",
@@ -50,6 +43,13 @@
       "live": "https://classy-selkie-68431c.netlify.app/",
       "github": "https://github.com/Giorgi-dl1/todo-app",
       "image": "/images/todo.png"
+    },
+    {
+      "name": "Rest Countries API",
+      "languages": "React, CSS",
+      "live": "https://silver-lily-b2d3cb.netlify.app/",
+      "github": "https://github.com/Giorgi-dl1/rest-countries",
+      "image": "/images/restCountries.png"
     },
     {
       "name": "Tip calculator",
