@@ -18,9 +18,13 @@ export default function Projects({ data }) {
                 />
               </a>
               <div className="absolute w-0 h-0 overflow-hidden group-hover/project:w-10 group-hover/project:h-10 ease duration-500 right-[0.5rem] bottom-[-1rem]">
-                <a href={item.github} className="relative " target="_blanck">
+                <a
+                  href={item.github}
+                  className="relative hover:opacity-80 rounded-full ease duration-500"
+                  target="_blanck"
+                >
                   <div className="z-10">
-                    <BsGithub className="w-10 h-10 hover:opacity-70 ease duration-500 fill-black cursor-pointer" />
+                    <BsGithub className="w-10 h-10 fill-black" />
                   </div>
                   <div className="w-[2.4rem] h-[2.4rem] bg-[#5ece7b] rounded-full mt-[-2.4rem]"></div>
                 </a>
@@ -34,9 +38,13 @@ export default function Projects({ data }) {
                 className="w-[380px] rounded object-cover"
               />
               <div className="absolute w-0 h-0 overflow-hidden group-hover/project:w-10 group-hover/project:h-10 ease duration-500 right-[0.5rem] bottom-[-1rem]">
-                <a href={item.github} className="relative " target="_blanck">
+                <a
+                  href={item.github}
+                  className="relative hover:opacity-80 rounded-full ease duration-500"
+                  target="_blanck"
+                >
                   <div className="z-10">
-                    <BsGithub className="w-10 h-10 ease hover:opacity-70 duration-500 fill-black cursor-pointer" />
+                    <BsGithub className="w-10 h-10 fill-black" />
                   </div>
                   <div className="w-[2.4rem] h-[2.4rem] bg-[#5ece7b] rounded-full mt-[-2.4rem]"></div>
                 </a>

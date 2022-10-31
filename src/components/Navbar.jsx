@@ -32,7 +32,7 @@ export default function Navbar({ location }) {
         </li>
       </ul>
       <img
-        src="/images/pineapple.jpg"
+        src="/images/logo.png"
         alt="logo pineapple"
         className="w-20 rotate-[15deg]"
       />
