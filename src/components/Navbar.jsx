@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { GiPineapple } from "react-icons/gi";
 
 export default function Navbar({ location }) {
   return (
@@ -32,7 +31,11 @@ export default function Navbar({ location }) {
           </Link>
         </li>
       </ul>
-      <GiPineapple className="fill-[#238b3f] w-20 h-20" />
+      <img
+        src="/images/pineapple.jpg"
+        alt="logo pineapple"
+        className="w-20 rotate-[15deg]"
+      />
     </nav>
   );
 }
