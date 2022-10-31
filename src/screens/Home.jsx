@@ -2,6 +2,7 @@ import { motion as m } from "framer-motion";
 import { useEffect } from "react";
 import { BsGithub } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
+import cv from "../giorgi_durglishvili_cv.pdf";
 
 export default function Home({ setLocation }) {
   const location = useLocation();
@@ -41,9 +42,11 @@ export default function Home({ setLocation }) {
         </div>
 
         <div className="mt-[7rem]">
-          <button className="py-[0.7rem] px-[1rem] shadow-lg shadow-black/20 bg-[#5ece7b] text-white hover:opacity-80 rounded ease duration-[0.5s]">
-            Download CV
-          </button>
+          <a href={cv} download>
+            <button className="py-[0.7rem] px-[1rem] shadow-lg shadow-black/20 bg-[#5ece7b] text-white hover:opacity-80 rounded ease duration-[0.5s]">
+              Download CV
+            </button>
+          </a>
           <div className="flex mt-[2rem]">
             <a
               href="https://github.com/Giorgi-dl1"
