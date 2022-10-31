@@ -17,16 +17,27 @@ export default function Home({ setLocation }) {
       transition={{ duration: 0.75, eas: "easeOut" }}
       className="text-gray-900 absolute max-h-screen top-0 left-0 w-full min-h-max px-[2rem] lg:px-[5rem] md:px-[4rem]"
     >
-      <div className="mt-60 md:mt-60 overflow-hidden">
+      <div className="mt-60 overflow-hidden">
         <div className="relative font-bold ">
-          <svg width="100%" height="100px">
+          <svg width="100%" height="130px">
             <clipPath id="text-overlay">
-              <text x="0" y="35%" fill="red" className="text-4xl md:text-5xl">
+              <text
+                x="0"
+                y="35%"
+                fill="red"
+                className="text-4xl md:text-6xl"
+                font-family="Dancing Script,cursive"
+              >
                 <tspan x="0">Hello! I am</tspan>
-                <tspan x="0" dy="1.2em">
+
+                <tspan x="0" dy="1.2em" fontWeight="bold">
                   Giorgi Durglishvili
                 </tspan>
-                <tspan x="0" dy="1.8em" className="text-2xl font-medium">
+                <tspan
+                  x="0"
+                  dy="1.8em"
+                  className="text-2xl leading-5 font-medium"
+                >
                   Web Developer
                 </tspan>
               </text>
