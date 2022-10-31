@@ -22,26 +22,13 @@ export default function Navbar({ location }) {
           <Link
             className="hover:opacity-60 py-[2rem] ease duration-[0.5s] border-solid border-b-[2px] border-transparent"
             style={
-              location === "/projects"
+              location === "/portfolio"
                 ? { borderColor: "#5ece7b", color: "#5ece7b" }
                 : {}
             }
-            to="/projects"
+            to="/portfolio"
           >
-            PROJECTS
-          </Link>
-        </li>
-        <li className="grid content-center">
-          <Link
-            className="hover:opacity-60 py-[2rem] ease duration-[0.5s] border-solid border-b-[2px] border-transparent"
-            style={
-              location === "/contact"
-                ? { borderColor: "#5ece7b", color: "#5ece7b" }
-                : {}
-            }
-            to="/contact"
-          >
-            CONTACTS
+            PORTFOLIO
           </Link>
         </li>
       </ul>

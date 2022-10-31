@@ -27,7 +27,7 @@ export default function ProjectsScreen({ setLocation }) {
       animate={{ y: "0%" }}
       exit={{ y: "-100%" }}
       transition={{ duration: 0.75, eas: "easeOut" }}
-      className="text-gray-900 absolute top-0 left-0 w-full min-h-screen px-[2rem] lg:px-[5rem] md:px-[4rem]"
+      className="text-gray-900 pb-5 absolute top-0 left-0 w-full min-h-screen px-[2rem] lg:px-[5rem] md:px-[4rem]"
     >
       <div className=" mt-40 mb-20 overflow-hidden">
         <m.h1
@@ -44,7 +44,7 @@ export default function ProjectsScreen({ setLocation }) {
           <div key={header}>
             <div
               onClick={() => clickhandler(header)}
-              className="bg-[#5ece7b] flex mx-auto lg:mx-0 justify-between align-center text-white text-2xl w-[27rem] p-[.75rem] cursor-pointer hover:opacity-80 rounded"
+              className="bg-[#5ece7b] flex mx-auto max-w-[80vw] lg:mx-0 justify-between align-center text-white text-2xl w-[27rem] p-[.75rem] cursor-pointer hover:opacity-80 rounded"
             >
               {header}
               <Arrow

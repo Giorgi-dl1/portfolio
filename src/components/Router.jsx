@@ -12,12 +12,8 @@ export default function Router({ setLocation }) {
       <Routes key={location.pathname} location={location}>
         <Route path="/" element={<Home setLocation={setLocation} />} />
         <Route
-          path="/projects"
+          path="/portfolio"
           element={<ProjectsScreen setLocation={setLocation} />}
-        />
-        <Route
-          path="/contact"
-          element={<Contact setLocation={setLocation} />}
         />
       </Routes>
     </AnimatePresence>

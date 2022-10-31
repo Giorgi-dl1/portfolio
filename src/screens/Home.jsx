@@ -26,7 +26,7 @@ export default function Home({ setLocation }) {
                   Giorgi Durglishvili
                 </tspan>
                 <tspan x="0" dy="1.8em" className="text-2xl font-medium">
-                  fullstack developer
+                  Web Developer
                 </tspan>
               </text>
             </clipPath>

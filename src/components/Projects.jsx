@@ -10,7 +10,7 @@ export default function Projects({ data }) {
         >
           {item.live ? (
             <div className="relative">
-              <a href={item.live} target="_blanck">
+              <a href={item.live} target="_blanck" rel="noopener noreferrer">
                 <img
                   src={item.image}
                   alt={item.name}
