@@ -13,7 +13,7 @@ export default function Project({ item }) {
             <img
               src={item.image}
               alt={item.name}
-              className="w-[380px] rounded object-cover"
+              className="w-[380px] h-[244px] ease duration-500 rounded object-cover"
             />
           </a>
           <div className="absolute w-0 h-0 overflow-hidden group-hover/project:w-10 group-hover/project:h-10 ease duration-500 right-[0.5rem] bottom-[-1rem]">

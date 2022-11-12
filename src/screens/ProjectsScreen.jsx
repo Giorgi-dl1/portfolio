@@ -20,7 +20,6 @@ export default function ProjectsScreen({ setLocation }) {
     obj[header] = !obj[header];
     setShow(obj);
   };
-  console.log(show);
   return (
     <m.div
       initial={{ y: "100%" }}
@@ -55,7 +54,9 @@ export default function ProjectsScreen({ setLocation }) {
                 }
               />
             </div>
-            {show[header] && <Projects data={projects[header]} />}
+            <div className={show[header] ? "" : "max-h-0 overflow-hidden"}>
+              <Projects data={projects[header]} />
+            </div>
           </div>
         ))}
       </div>

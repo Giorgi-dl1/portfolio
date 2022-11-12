@@ -7,3 +7,13 @@
 video {
   clip-path: url(#text-overlay);
 }
+.custom-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+  gap: 100px 40px;
+  padding-bottom: 3rem;
+}
+.custom-grid-child {
+  display: flex;
+  justify-content: center;
+}

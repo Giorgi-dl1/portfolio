@@ -1,6 +1,7 @@
 import { motion as m } from "framer-motion";
 import { useEffect } from "react";
 import { BsGithub } from "react-icons/bs";
+import { ImLinkedin } from "react-icons/im";
 import { useLocation } from "react-router-dom";
 import cv from "../giorgi_durglishvili_cv.pdf";
 
@@ -59,13 +60,22 @@ export default function Home({ setLocation }) {
             </button>
           </a>
           <div className="flex mt-[2rem]">
-            <a
-              href="https://github.com/Giorgi-dl1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsGithub className="w-[35px] h-[35px]  cursor-pointer hover:fill-[#5ece7b] fill-black ease duration-[0.5s]" />
-            </a>
+            <div className="flex gap-[1rem]">
+              <a
+                href="https://github.com/Giorgi-dl1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsGithub className="w-[35px] h-[35px]  cursor-pointer hover:opacity-70 fill-black ease duration-[0.5s]" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/giorgi-durglishvili-7a9158230/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImLinkedin className="w-[35px] h-[35px]  cursor-pointer hover:opacity-70 fill-black ease duration-[0.5s]" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
