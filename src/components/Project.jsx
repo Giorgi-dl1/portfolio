@@ -61,12 +61,17 @@ export default function Project({ item }) {
           <div className="text-xl font-[600] my-2">{item.name}</div>
         )}
 
-        <div className="flex gap-2 mt-[1rem]">
+        <div className="flex gap-2 flex-wrap mt-[1rem]">
           {toolsArr.map((tool) => (
             <div className="py-[6px] px-[12px] rounded  border-[1px] border-black">
               {tool}
             </div>
           ))}
+          {item.inProcess && (
+            <div className="py-[6px] px-[12px] bg-green-500 text-white rounded">
+              In process
+            </div>
+          )}
         </div>
       </div>
     </div>
