@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { BsGithub } from "react-icons/bs";
 import { ImLinkedin } from "react-icons/im";
 import { useLocation } from "react-router-dom";
-import cv from "../giorgi_durglishvili_cv.pdf";
+import cv from "../Giorgi_Durglishvili_CV.pdf";
 
 export default function Home({ setLocation }) {
   const location = useLocation();
