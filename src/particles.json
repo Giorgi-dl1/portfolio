@@ -22,7 +22,7 @@
         "size": 40
       },
       "push": {
-        "quantity": 4
+        "quantity": 8
       },
       "repulse": {
         "distance": 200,
