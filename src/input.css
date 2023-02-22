@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
 
 @layer components {
   #tsparticles {
@@ -12,5 +19,17 @@
     left: 0;
     top: 0;
     z-index: -1;
+  }
+  .App {
+    font-family: sans-serif;
+  }
+  .name {
+    font-family: 'Shantell Sans', cursive;
+  }
+  .padding-x {
+    @apply px-4 md:px-10 lg:px-16;
+  }
+  .icon {
+    @apply p-3 bg-[#032d55] text-white max-w-max rounded-full transition duration-300;
   }
 }
