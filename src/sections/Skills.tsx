@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="min-h-screen space-y-8 pb-4 padding-x overflow-hidden bg-[#070724] relative"
+      className="min-h-screen grid place-content-center  space-y-8 pb-4 padding-x overflow-hidden bg-[#070724] relative"
     >
       <img
         src={bg}
