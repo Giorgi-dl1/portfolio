@@ -19,7 +19,11 @@ export const Contact = () => {
         className="pt-4 pb-8 font-bold text-center text-blue-900 name"
       />
       <div className="flex items-center max-w-[1200px]">
-        <img src="/assets/contact.jpg" alt="" className="w-[50%]" />
+        <img
+          src="/assets/contact.jpg"
+          alt=""
+          className="w-[50%] hidden md:block"
+        />
         <ContactForm />
       </div>
     </div>

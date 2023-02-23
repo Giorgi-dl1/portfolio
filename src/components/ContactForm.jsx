@@ -32,7 +32,11 @@ const ContactForm = () => {
   console.log(Object.keys(formState).length)
 
   return (
-    <form className="flex flex-col flex-1" ref={form} onSubmit={sendEmail}>
+    <form
+      className="flex flex-col flex-1 w-[90vw] md:w-full"
+      ref={form}
+      onSubmit={sendEmail}
+    >
       <label
         className={`text-blue-900 transition duration-300 ${
           !formState?.user_name && '!text-red-700'
