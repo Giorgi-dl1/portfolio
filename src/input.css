@@ -48,4 +48,9 @@
   .input {
     @apply w-full p-2 mt-0.5 mb-4 border border-blue-900 rounded shadow-md outline-none;
   }
+  .success-shadow {
+    box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 25px 3px rgba(0, 0, 0, 0.26);
+  }
 }
