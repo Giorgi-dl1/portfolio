@@ -12,5 +12,35 @@
     "GIT",
     "NodeJS",
     "ExpressJS"
+  ],
+  "projects": [
+    {
+      "name": "Audiophile",
+      "preview": "An E-commerce website With fully functional shopping cart system and form validation, built using ReactJS.",
+      "image": "/assets/projects/audiophile.png",
+      "source": "https://github.com/Giorgi-dl1/audiophile-ecommerce-website",
+      "live": "https://audiophile-ecommerce-website-phi.vercel.app/"
+    },
+    {
+      "name": "Nextflix",
+      "preview": "A Netflix clone website built using NextJS, TypeScript and TailwindCSS. I used firebase for authentication system.",
+      "image": "/assets/projects/nextflix.png",
+      "source": "https://github.com/Giorgi-dl1/Nextflix",
+      "live": "https://nextflix-358bhksuz-giorgi-dl1.vercel.app/"
+    },
+    {
+      "name": "The Planets",
+      "preview": "A planets fact website built using ReactJS and TailwindCSS.",
+      "image": "/assets/projects/planets.png",
+      "source": "https://github.com/Giorgi-dl1/planets-fact-site",
+      "live": "https://planets-fact-site-iota.vercel.app/planet/mercury/overview"
+    },
+    {
+      "name": "Rest Countries",
+      "preview": "A countries fact website with theme color swithcer built using NextJS, TypeScript and TailwindCSS.",
+      "image": "/assets/projects/countries.png",
+      "source": "https://github.com/Giorgi-dl1/Rest-Countries-Api",
+      "live": "https://rest-countries-api-beryl-two.vercel.app/"
+    }
   ]
 }
