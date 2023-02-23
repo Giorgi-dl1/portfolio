@@ -8,6 +8,7 @@ import Home from './sections/Home'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Footer from './sections/Footer'
+import { Contact } from './sections/Contact'
 
 function App() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -24,6 +25,7 @@ function App() {
       <div className="bg-white">
         <Skills />
         <Projects />
+        <Contact />
         <Footer />
       </div>
     </div>
