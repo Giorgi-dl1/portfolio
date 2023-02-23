@@ -4,7 +4,7 @@ interface Skill {
 }
 const Skill = ({ image, title }: Skill) => {
   return (
-    <div className="relative skill-wrapper group/skill flex text-center  w-[150px] h-[140px] ">
+    <div className="relative skill-wrapper group/skill flex text-center  w-[150px] h-[140px] lg:w-[21.9%]">
       <div className="z-10 group-hover/skill:-translate-y-[40px] cursor-default w-full transition-all duration-1000 flex flex-col items-center justify-center gap-2">
         <img src={image} alt={title} className="object-cover h-16 z-[2]" />
         <h4 className="text-xl font-bold text-white z-[2]">{title}</h4>

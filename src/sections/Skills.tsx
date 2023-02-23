@@ -16,7 +16,7 @@ const Skills = () => {
       <h2 className="text-4xl font-bold text-center text-white name ">
         Skills & <span className="text-orange-500">Abilites</span>
       </h2>
-      <div className="flex justify-center lg:justify-start max-w-[860px] lg:max-w-[890px] mx-auto flex-wrap w-full gap-x-8 gap-y-6">
+      <div className="flex justify-center lg:justify-start max-w-[860px] lg:max-w-[1000px] mx-auto flex-wrap w-full gap-x-8 gap-y-6">
         {skills.map((skill) => (
           <Skill
             key={skill}
