@@ -32,4 +32,8 @@
   .icon {
     @apply p-3 bg-[#032d55] text-white max-w-max rounded-full transition duration-300;
   }
+  .skill-wrapper:hover .skill-bg {
+    transform: perspective(900px) translateY(-5%) rotateX(25deg);
+    box-shadow: 2px 35px 32px -8px rgba(0, 0, 0, 0.75);
+  }
 }
