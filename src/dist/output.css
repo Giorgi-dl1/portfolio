@@ -750,6 +750,14 @@ html {
   max-width: 885px;
 }
 
+.max-w-\[860px\] {
+  max-width: 860px;
+}
+
+.max-w-\[890px\] {
+  max-width: 890px;
+}
+
 .\!translate-x-0 {
   --tw-translate-x: 0px !important;
   -webkit-transform: translate(var(--tw-translate-x), var(--tw-translate-y))
@@ -1091,6 +1099,10 @@ html {
 }
 
 @media (min-width: 768px) {
+  .md\:justify-start {
+    justify-content: flex-start;
+  }
+
   .md\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -1112,6 +1124,15 @@ html {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:max-w-\[890px\] {
+    max-width: 890px;
+  }
+
+  .lg\:justify-start {
+    justify-content: flex-start;
+  }
+}
 .bg-\[\#2D68F0\] {
   --tw-bg-opacity: 1;
   background-color: rgb(45 104 240 / var(--tw-bg-opacity));
