@@ -19,7 +19,8 @@ const Skills = () => {
       <div className="flex justify-center lg:justify-start max-w-[860px] lg:max-w-[890px] mx-auto flex-wrap w-full gap-x-8 gap-y-6">
         {skills.map((skill) => (
           <Skill
-            image={`/assets/${skill.toLocaleLowerCase()}.png`}
+            key={skill}
+            image={`/assets/skills/${skill.toLocaleLowerCase()}.png`}
             title={skill}
           />
         ))}
