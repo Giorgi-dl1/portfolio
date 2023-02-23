@@ -23,7 +23,7 @@ const Project = ({ project, index }: ProjectComponent) => {
             {project.preview}
           </p>
           <div className="flex gap-2 mt-2 md:mt-3">
-            <a href={project.source} target="_blank">
+            <a rel="noreferrer" href={project.source} target="_blank">
               <div className="icon group/icon relative !p-1 md:!p-2 hover:!bg-[#202020] !bg-black">
                 <BsGithub />
                 <div className="icon-label-wrapper">
@@ -38,7 +38,7 @@ const Project = ({ project, index }: ProjectComponent) => {
                 </div>
               </div>
             </a>
-            <a href={project.live} target="_blank">
+            <a rel="noreferrer" href={project.live} target="_blank">
               <div className="icon group/icon relative !p-1 md:!p-2 hover:!bg-[#202020] !bg-black">
                 <BsFillPlayFill />
                 <div className="icon-label-wrapper">

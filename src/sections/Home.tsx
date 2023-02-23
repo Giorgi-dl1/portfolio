@@ -10,7 +10,7 @@ const Home = () => {
     if (!mounted) {
       setMounted(true)
     }
-  }, [])
+  }, [mounted])
   return (
     <div id="home" className="flex items-center h-screen padding-x">
       <Navbar />
@@ -44,6 +44,7 @@ const Home = () => {
         </button>
         <div className="flex gap-2">
           <a
+            rel="noreferrer"
             href="https://www.linkedin.com/in/giorgi-durglishvili-92ba2425a/"
             target="_blank"
           >
@@ -51,7 +52,12 @@ const Home = () => {
               <BsLinkedin />
             </div>
           </a>
-          <a href="https://github.com/Giorgi-dl1" target="_blank">
+
+          <a
+            rel="noreferrer"
+            href="https://github.com/Giorgi-dl1"
+            target="_blank"
+          >
             <div className="icon hover:bg-black">
               <BsGithub />
             </div>
