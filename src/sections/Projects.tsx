@@ -5,7 +5,7 @@ import { project } from '../interfaces'
 const Projects = () => {
   const { projects }: { projects: project[] } = data
   return (
-    <div className="relative min-h-screen padding-x">
+    <div id="work" className="relative min-h-screen padding-x">
       <img
         src="https://i.pinimg.com/originals/98/33/5f/98335fcd764b32cae3780b1e1d5d39b4.gif"
         className="absolute z-[0] top-0 left-0 object-cover w-full h-full"
