@@ -37,6 +37,7 @@ const Navbar = () => {
     { name: 'Home', color: '#6D2ED5' },
     { name: 'Skills', color: '#D14C32' },
     { name: 'Work', color: '#2D68F0' },
+    { name: 'Contact', color: '#a10202' },
   ]
 
   return (
