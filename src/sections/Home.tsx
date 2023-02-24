@@ -1,8 +1,13 @@
 import { TypeAnimation } from 'react-type-animation'
-import Navbar from '../components/Navbar'
 import { FiDownload } from 'react-icons/fi'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { useEffect, useState } from 'react'
+import particlesOptions from '../particles.json'
+import { ISourceOptions } from 'tsparticles-engine'
+import Particles from 'react-particles'
+import { useCallback } from 'react'
+import type { Engine } from 'tsparticles-engine'
+import { loadFull } from 'tsparticles'
 const Home = () => {
   const [mounted, setMounted] = useState(false)
 
@@ -11,9 +16,16 @@ const Home = () => {
       setMounted(true)
     }
   }, [mounted])
+  const particlesInit = useCallback(async (engine: Engine) => {
+    await loadFull(engine)
+  }, [])
   return (
-    <div id="home" className="flex items-center h-screen padding-x">
-      <Navbar />
+    <div id="home" className="relative flex items-center h-screen padding-x">
+      <Particles
+        options={particlesOptions as ISourceOptions}
+        init={particlesInit}
+        className="absolute top-0 left-0"
+      />
       <div className="space-y-3 name pt-[70px]">
         <h1
           className={`translate-y-[100px] opacity-0 transition duration-1000 ${
