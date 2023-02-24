@@ -9,6 +9,7 @@ import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Footer from './sections/Footer'
 import { Contact } from './sections/Contact'
+import QuickChat from './components/QuickChat'
 
 function App() {
   const particlesInit = useCallback(async (engine: Engine) => {
@@ -28,6 +29,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      <QuickChat />
     </div>
   )
 }
