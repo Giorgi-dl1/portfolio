@@ -1,7 +1,7 @@
 import { TypeAnimation } from 'react-type-animation'
 import ContactForm from '../components/ContactForm'
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div
       id="contact"
@@ -29,3 +29,5 @@ export const Contact = () => {
     </div>
   )
 }
+
+export default Contact

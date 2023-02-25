@@ -1,16 +1,15 @@
+import QuickChat from './components/QuickChat'
+import Navbar from './components/Navbar'
 import Home from './sections/Home'
 import Skills from './sections/Skills'
 import Projects from './sections/Projects'
 import Footer from './sections/Footer'
-import { Contact } from './sections/Contact'
-import QuickChat from './components/QuickChat'
-import Navbar from './components/Navbar'
+import Contact from './sections/Contact'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Home />
       <div className="bg-white">
         <Skills />
