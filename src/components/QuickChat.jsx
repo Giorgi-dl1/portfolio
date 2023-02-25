@@ -7,9 +7,8 @@ const QuickChat = () => {
   return (
     <>
       <div
-        className={`p-3 pointer-events-none bg-white border scale-75 opacity-0 transition-all duration-300 border-[#ccc] rounded shadow-2xl ${
-          showForm &&
-          '!scale-100 pointer-events-auto !opacity-100 fixed z-[100] bottom-20 left-4'
+        className={`p-3 bottom-20 left-4 fixed pointer-events-none bg-white border scale-75 opacity-0 transition-all duration-300 border-[#ccc] rounded shadow-2xl ${
+          showForm && '!scale-100 pointer-events-auto !opacity-100 z-[100]'
         }`}
       >
         <ContactForm sm={true} />

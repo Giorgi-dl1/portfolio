@@ -854,6 +854,14 @@ html {
   margin-top: 0.75rem;
 }
 
+.block{
+  display: block;
+}
+
+.\!block{
+  display: block !important;
+}
+
 .flex{
   display: flex;
 }
