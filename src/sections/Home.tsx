@@ -50,10 +50,14 @@ const Home = () => {
             className="text-red-700 "
           />
         </p>
-        <button className="flex items-center gap-1 px-3 py-1 font-bold text-white transition bg-blue-900 rounded-md hover:bg-blue-700 duratio-300 md:px-6 md:py-3">
+        <a
+          download
+          href="/CV/Giorgi_Durglishvili.CV.pdf"
+          className="flex items-center gap-1 px-3 py-1 font-bold text-white transition bg-blue-900 rounded-md max-w-max hover:bg-blue-700 duratio-300 md:px-6 md:py-3"
+        >
           Download CV
           <FiDownload />
-        </button>
+        </a>
         <div className="flex gap-2">
           <a
             rel="noreferrer"
