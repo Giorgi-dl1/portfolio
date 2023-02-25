@@ -11,7 +11,10 @@
     "HTML",
     "GIT",
     "NodeJS",
-    "ExpressJS"
+    "ExpressJS",
+    "SQL",
+    "Mongoose",
+    "MongoDB"
   ],
   "projects": [
     {
