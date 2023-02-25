@@ -41,6 +41,20 @@
       "image": "/assets/projects/countries.png",
       "source": "https://github.com/Giorgi-dl1/Rest-Countries-Api",
       "live": "https://rest-countries-api-beryl-two.vercel.app/"
+    },
+    {
+      "name": "Devfinder",
+      "preview": "A github users search app with theme color switcher. The website is built using ReactJS and uses github API.",
+      "image": "/assets/projects/devfinder.png",
+      "source": "https://github.com/Giorgi-dl1/github-user-search-app",
+      "live": "https://github-user-search-app-ruddy-nu.vercel.app/"
+    },
+    {
+      "name": "R P C",
+      "preview": "Classic Rock Paper Scissors game built using HTML5 CSS and JavaScript.",
+      "image": "/assets/projects/R P C.png",
+      "source": "https://github.com/Giorgi-dl1/rock-paper-scissors",
+      "live": "https://rock-paper-scissors-delta-five.vercel.app/"
     }
   ]
 }
