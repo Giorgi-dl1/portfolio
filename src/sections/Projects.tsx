@@ -40,7 +40,8 @@ const Projects = () => {
           onClick={() => setShowMore(!showMore)}
           className="relative flex items-center gap-1 px-6 py-2 mx-auto mb-4 font-bold text-white border border-white rounded shadow-sm cursor-pointer shadow-white hover:bg-opacity-90 max-w-max"
         >
-          <span>View More</span> <AiOutlineArrowRight />
+          <span>{!showMore ? 'Show More' : 'Show Less'}</span>{' '}
+          <AiOutlineArrowRight className={`${showMore ? '-rotate-90' : ''}`} />
         </div>
       </div>
     </AnimatePresence>
