@@ -1,6 +1,7 @@
 import { BsFillPlayFill, BsGithub } from 'react-icons/bs'
 import { project } from '../interfaces'
 import { motion as m } from 'framer-motion'
+import ProjectLink from './ProjectLink'
 interface ProjectComponent {
   project: project
   index: number
@@ -30,36 +31,20 @@ const Project = ({ project, index }: ProjectComponent) => {
             {project.preview}
           </p>
           <div className="flex gap-2 mt-2 md:mt-3">
-            <a rel="noreferrer" href={project.source} target="_blank">
-              <div className="icon group/icon relative !p-1 md:!p-2 hover:!bg-[#202020] !bg-black">
-                <BsGithub />
-                <div className="icon-label-wrapper">
-                  <div
-                    className={`${
-                      (index + 1) % 2 ? 'text-red-700' : 'text-blue-900'
-                    } icon-label`}
-                  >
-                    Source Code
-                  </div>
-                  <div className="label-arrow" />
-                </div>
-              </div>
-            </a>
-            <a rel="noreferrer" href={project.live} target="_blank">
-              <div className="icon group/icon relative !p-1 md:!p-2 hover:!bg-[#202020] !bg-black">
-                <BsFillPlayFill />
-                <div className="icon-label-wrapper">
-                  <div
-                    className={`${
-                      (index + 1) % 2 ? 'text-red-700' : 'text-blue-900'
-                    } icon-label`}
-                  >
-                    Live
-                  </div>
-                  <div className="label-arrow" />
-                </div>
-              </div>
-            </a>
+            <ProjectLink
+              to={project.source}
+              title="Source Code"
+              Icon={BsGithub}
+              index={index}
+            />
+            {project.live && (
+              <ProjectLink
+                to={project.live}
+                title="Live"
+                Icon={BsFillPlayFill}
+                index={index}
+              />
+            )}
           </div>
         </div>
       </div>
