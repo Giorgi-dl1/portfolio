@@ -32,11 +32,10 @@
       "live": "https://nextflix-358bhksuz-giorgi-dl1.vercel.app/"
     },
     {
-      "name": "The Planets",
-      "preview": "A planets fact website built using ReactJS and TailwindCSS.",
-      "image": "/assets/projects/planets.png",
-      "source": "https://github.com/Giorgi-dl1/planets-fact-site",
-      "live": "https://planets-fact-site-iota.vercel.app/planet/mercury/overview"
+      "name": "MERN ecommerce",
+      "preview": "The website has an authentication system, shopping cart, checkout system, users can track the status of their orders.",
+      "image": "/assets/projects/MERNEcommerce.png",
+      "source": "https://github.com/Giorgi-dl1/G-express"
     },
     {
       "name": "Rest Countries",
@@ -45,6 +44,14 @@
       "source": "https://github.com/Giorgi-dl1/Rest-Countries-Api",
       "live": "https://rest-countries-api-beryl-two.vercel.app/"
     },
+    {
+      "name": "The Planets",
+      "preview": "A planets fact website built using ReactJS and TailwindCSS.",
+      "image": "/assets/projects/planets.png",
+      "source": "https://github.com/Giorgi-dl1/planets-fact-site",
+      "live": "https://planets-fact-site-iota.vercel.app/planet/mercury/overview"
+    },
+
     {
       "name": "Devfinder",
       "preview": "A github users search app with theme color switcher. The website is built using ReactJS and uses github API.",
