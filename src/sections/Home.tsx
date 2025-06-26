@@ -1,6 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { FiDownload } from "react-icons/fi";
-import { BsLinkedin, BsGitlab } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import particlesOptions from "../particles.json";
 import { ISourceOptions } from "tsparticles-engine";
@@ -73,7 +73,7 @@ const Home = () => {
               <BsLinkedin />
             </div>
           </a>
-
+          {/*
           <a
             rel="noreferrer"
             href="https://gitlab.com/gdurglishvili.dl"
@@ -82,7 +82,7 @@ const Home = () => {
             <div className="icon hover:bg-orange-600">
               <BsGitlab />
             </div>
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
