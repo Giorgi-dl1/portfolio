@@ -1,6 +1,6 @@
-import { AiFillPhone } from 'react-icons/ai'
-import { GrMail } from 'react-icons/gr'
-import { MdLocationPin } from 'react-icons/md'
+import { AiFillPhone } from "react-icons/ai";
+import { GrMail } from "react-icons/gr";
+import { MdLocationPin } from "react-icons/md";
 const Footer = () => {
   return (
     <div className="bg-[#001244] padding-x py-6 text-white">
@@ -17,11 +17,13 @@ const Footer = () => {
           <div className="space-y-3">
             <div className="flex items-center gap-1">
               <AiFillPhone className="text-orange-500" />
-              <span>+995 598 42 15 47</span>
+              <a href="tel:+995598421547">+995 598 42 15 47</a>
             </div>
             <div className="flex items-center gap-1">
               <GrMail className="text-orange-500" />
-              <span>gdurglishvili.dl@gmail.com</span>
+              <a href="mailto:gdurglishvili.dl@gmail.com">
+                gdurglishvili.dl@gmail.com
+              </a>
             </div>
             <div className="flex items-center gap-1">
               <MdLocationPin className="text-orange-500" />
@@ -31,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,10 +1,10 @@
-import { BsFillPlayFill, BsGithub } from 'react-icons/bs'
-import { project } from '../interfaces'
-import { motion as m } from 'framer-motion'
-import ProjectLink from './ProjectLink'
+import { BsFillPlayFill, BsGithub } from "react-icons/bs";
+import { project } from "../interfaces";
+import { motion as m } from "framer-motion";
+import ProjectLink from "./ProjectLink";
 interface ProjectComponent {
-  project: project
-  index: number
+  project: project;
+  index: number;
 }
 
 const Project = ({ project, index }: ProjectComponent) => {
@@ -27,7 +27,7 @@ const Project = ({ project, index }: ProjectComponent) => {
           {project.name}
         </h2>
         <div className="group-hover/card:left-[4.5rem] md:group-hover/card:left-[14.5rem] absolute left-[600px] top-[50px] md:top-[105px] transition-all duration-500 opacity-0 group-hover/card:opacity-100 z-[3] w-[190px] md:w-[250px]">
-          <p className="text-[10px] md:text-sm text-white h-[45px] md:h-[65px]">
+          <p className="text-[10px] md:text-sm text-white h-[50px] md:h-[70px]">
             {project.preview}
           </p>
           <div className="flex gap-2 mt-2 md:mt-3">
@@ -50,11 +50,11 @@ const Project = ({ project, index }: ProjectComponent) => {
       </div>
       <div
         className={`absolute w-6 h-6 md:w-8 md:h-8 ${
-          (index + 1) % 2 ? 'bg-blue-900' : 'bg-red-700'
+          (index + 1) % 2 ? "bg-blue-900" : "bg-red-700"
         }  rounded-full group-hover/card:opacity-50 right-3 md:right-6 bottom-4 md:bottom-8 group-hover/card:scale-[19] md:group-hover/card:scale-[18] transition-all duration-500`}
       />
     </m.div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

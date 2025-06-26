@@ -1,17 +1,17 @@
-import Project from '../components/Project'
-import data from '../data.json'
-import { AiOutlineArrowRight } from 'react-icons/ai'
-import { project } from '../interfaces'
-import { useState } from 'react'
-import { AnimatePresence } from 'framer-motion'
+import Project from "../components/Project";
+import data from "../data.json";
+import { AiOutlineArrowRight } from "react-icons/ai";
+import { project } from "../interfaces";
+import { useState } from "react";
+import { AnimatePresence } from "framer-motion";
 
 const Projects = () => {
-  const [showMore, setShowMore] = useState(false)
+  const [showMore, setShowMore] = useState(false);
 
-  const { projects }: { projects: project[] } = data
+  const { projects }: { projects: any[] } = data;
   const getProjects = () => {
-    return showMore ? [...projects] : projects.slice(0, 4)
-  }
+    return showMore ? [...projects] : projects.slice(0, 4);
+  };
 
   return (
     <AnimatePresence initial={false} mode="wait">
@@ -40,12 +40,12 @@ const Projects = () => {
           onClick={() => setShowMore(!showMore)}
           className="relative flex items-center gap-1 px-6 py-2 mx-auto mb-4 font-bold text-white border border-white rounded shadow-sm cursor-pointer shadow-white hover:bg-opacity-90 max-w-max"
         >
-          <span>{!showMore ? 'Show More' : 'Show Less'}</span>{' '}
-          <AiOutlineArrowRight className={`${showMore ? '-rotate-90' : ''}`} />
+          <span>{!showMore ? "Show More" : "Show Less"}</span>{" "}
+          <AiOutlineArrowRight className={`${showMore ? "-rotate-90" : ""}`} />
         </div>
       </div>
     </AnimatePresence>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

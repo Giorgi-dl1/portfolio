@@ -1,12 +1,12 @@
-import Skill from '../components/Skill'
-import bg from '../images/background-stars.svg'
-import data from '../data.json'
+import Skill from "../components/Skill";
+import bg from "../images/background-stars.svg";
+import data from "../data.json";
 const Skills = () => {
-  const { skills } = data
+  const { skills } = data;
   return (
     <div
       id="skills"
-      className="min-h-screen grid place-content-center  space-y-8 pb-4 padding-x overflow-hidden bg-[#070724] relative"
+      className="min-h-screen grid place-content-center space-y-8 pb-10 padding-x overflow-hidden bg-[#070724] relative"
     >
       <img
         src={bg}
@@ -20,13 +20,15 @@ const Skills = () => {
         {skills.map((skill) => (
           <Skill
             key={skill}
-            image={`/assets/skills/${skill.toLocaleLowerCase()}.png`}
+            image={`/assets/skills/${skill.toLocaleLowerCase()}.${
+              skill == "GSAP" ? "svg" : "png"
+            }`}
             title={skill}
           />
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Skills
+export default Skills;
